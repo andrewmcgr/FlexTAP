@@ -1,6 +1,6 @@
 # FlexTAP
 
-This is a flexure based alternative to the Voron TAP for Z probing with the nozzle, compatible with any toolhead that will mount on an R8 TAP.
+This is an experimental flexure based alternative to the Voron TAP for Z probing with the nozzle, compatible with any toolhead that will mount on an R8 TAP.
 
 FlexTAP has two main advantages:
 * it's lighter (27 g approx, vs 91 g for an R8 plastic TAP and 76 g for a Mellow CNC alloy TAP)
@@ -13,6 +13,8 @@ Actuation force depends on what filament is used to print it, but is sufficientl
 Accuracy is very good, on my printers limited by the Z motion system not the probe.
 
 The design also incorporates the rear toolhead board mounting screw position from the XOL carriage for better stability.
+
+This first release is experimental: it works, produces high quality output (the FlexTAP pictured below was printed on a machine fitted with an earlier iteration), but it has not been run for long enough to determine longevity.
 
 ![CAD image](Images/FlexTap.png)
 
