@@ -60,6 +60,8 @@ Repeat the adjustment after installing the belt clamps and tensioning the belts 
 
 Once the toolhead is installed and TAP configured, verify correct endstop operation before attempting to home.
 
+The mechanism takes a number of probes to settle, so it's a good idea to run probe_accuracy tests with a total of at least 50 probes before proceeding. Then set Z offset by your favourite method and it should be good to go.
+
 # Acknowledgements:
 
 @zruncho and @chirpy for picking up and running with it, @esoterical for useful discussion, @frix_x for saying "Finally!" when I first mentioned the idea.
