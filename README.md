@@ -53,6 +53,8 @@ See the CAD image and photos. I recommend attaching the three parts together usi
 
 FlexTAP uses Archetype V1 belt clips. These are installed with the open side facing the rail. Belt enters the slot closest to the rail, is folded back on itself and exits through the same slot, forming a loop around the screw once installed and locking into the the belt's own teeth. The other slot is for retaining the loose end of the belt if necessary.
 
+@Reth made an [assembly video](https://www.youtube.com/watch?v=gPwkQMZwbeQ), in case the text and photos don't do it for you.
+
 # Adjustment:
 
 Before installation, adjust the center screw so it just barely actuates the switch, verify that the switch can be clicked on and will switch off on its own by pulling the lower belt clamp tabs downward. If the switch does not turn off on its own, advance the center screw by about 1/12 turn. Then adjust the stop screw to actuate the switch, then back it off till the switch deactivates and verify that the switch still works as described.
