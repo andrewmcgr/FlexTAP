@@ -12,7 +12,7 @@ Actuation force depends on what filament is used to print it, but is sufficientl
 
 Accuracy is very good, on my printers limited by the Z motion system not the probe.
 
-The design also incorporates the rear toolhead board mounting screw position from the XOL carriage for better stability.
+The design also incorporates the rear toolhead board mounting screw position from the XOL carriage for better toolboard stability if using XOL.
 
 This first release is experimental: it works, produces high quality output (the FlexTAP pictured below was printed on a machine fitted with an earlier iteration), but it has not been run for long enough to determine longevity.
 
@@ -38,7 +38,8 @@ This first release is experimental: it works, produces high quality output (the 
 * Do not use fiber-filled filament, all the examples tested were either too stiff or too brittle
 * Use standard Voron print settings (0.2 mm layer height, at least 3 perimeters, at least 3 top/bottom layers or a shell thickness of 0.8 mm, 45% cubic infill)
 * Support for the core is included, STLs are in print orientation
-* Print and install the XOL bracket even if you will not be using the center screw, it also adds significant rigidity. The X endstop bracket is only necessary if you need to mount an endstop microswitch
+* Print and install the XOL bracket even if you will not be using the center screw, it also adds significant rigidity.
+* The X endstop bracket is only necessary if you need to mount an endstop microswitch
 
 FlexTAP is not an especially difficult print, if you can print a StealthBurner front section or an R8 Voron TAP, this should present no particular problem.
 
