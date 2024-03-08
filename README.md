@@ -33,13 +33,14 @@ This first release is experimental: it works, produces high quality output (the 
 
 # Printing:
 
-* Use ABS or ASA, the flexures were designed and tested with these materials
-* Make sure your profile will handle bridges well and has good layer adhesion
-* Do not use fiber-filled filament, all the examples tested were either too stiff or too brittle
-* Use standard Voron print settings (0.2 mm layer height, at least 3 perimeters, at least 3 top/bottom layers or a shell thickness of 0.8 mm, 45% cubic infill)
-* Support for the core is included, STLs are in print orientation
+* Use ASA by preference. ABS will also work. The flexures were designed and tested with these materials. ezPC-CF can also work, but be aware that the parts will need annealing after printing as they will be too brittle otherwise.
+* Make sure your profile will handle bridges well and has good layer adhesion.
+* Do not use fiber-filled ABS or ASA filament, all the examples tested were either too stiff or too brittle.
+* Use standard Voron print settings (0.4 mm nozzle, 0.2 mm layer height, at least 3 perimeters, at least 3 top/bottom layers or a shell thickness of 0.8 mm, 45% cubic infill).
+* Support for the core is included, STLs are in print orientation.
 * Print and install the XOL bracket even if you will not be using the center screw, it also adds significant rigidity.
-* The X endstop bracket is only necessary if you need to mount an endstop microswitch
+* The X endstop bracket is only necessary if you need to mount an endstop microswitch.
+* Don't attempt to remove any dropped bridges or other excess material from the flexures themselves. It won't hurt performance, but tool damage to the flexures will.
 
 FlexTAP is not an especially difficult print, if you can print a StealthBurner front section or an R8 Voron TAP, this should present no particular problem.
 
@@ -57,13 +58,15 @@ FlexTAP uses Archetype V1 belt clips. These are installed with the open side fac
 
 # Adjustment:
 
-Before installation, adjust the center screw so it just barely actuates the switch, verify that the switch can be clicked on and will switch off on its own by pulling the lower belt clamp tabs downward. If the switch does not turn off on its own, advance the center screw by about 1/12 turn. Then adjust the stop screw to actuate the switch, then back it off till the switch deactivates and verify that the switch still works as described.
+* Before installation, adjust the center screw so it just barely actuates the switch, verify that the switch can be clicked on and will switch off on its own by pulling the lower belt clamp tabs downward.
+* If the switch does not turn off on its own, advance the center screw by about 1/12 turn.
+* Then adjust the stop screw to actuate the switch, then back it off till the switch deactivates and verify that the switch still works as described.
 
 Repeat the adjustment after installing the belt clamps and tensioning the belts but before installing the toolhead (this time pushing the front of the TAP upward).
 
-Once the toolhead is installed and TAP configured, verify correct endstop operation before attempting to home.
+Once the toolhead is installed and TAP configured, verify correct endstop operation again before attempting to home.
 
-The mechanism takes a number of probes to settle, so it's a good idea to run probe_accuracy tests with a total of at least 50 probes before proceeding. Then set Z offset by your favourite method and it should be good to go.
+The mechanism takes a number of probes to settle, so it's a good idea to run `probe_accuracy` tests with a total of at least 50 probes before proceeding. Then set Z offset by your favourite method and it should be good to go.
 
 # Acknowledgements:
 
