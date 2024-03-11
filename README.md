@@ -37,6 +37,7 @@ This first release is experimental: it works, produces high quality output (the 
 * Make sure your profile will handle bridges well and has good layer adhesion.
 * Do not use fiber-filled ABS or ASA filament, all the examples tested were either too stiff or too brittle.
 * Use standard Voron print settings (0.4 mm nozzle, 0.2 mm layer height, at least 3 perimeters, at least 3 top/bottom layers or a shell thickness of 0.8 mm, 45% cubic infill).
+* Thin walls should be enabled.
 * Support for the core is included, STLs are in print orientation.
 * Print and install the XOL bracket even if you will not be using the center screw, it also adds significant rigidity.
 * The X endstop bracket is only necessary if you need to mount an endstop microswitch.
