@@ -39,6 +39,7 @@ This first release is experimental: it works, produces high quality output (the 
 * Use standard Voron print settings (0.4 mm nozzle, 0.2 mm layer height, at least 3 perimeters, at least 3 top/bottom layers or a shell thickness of 0.8 mm, 45% cubic infill).
 * Thin walls should be enabled.
 * Support for the core is included, STLs are in print orientation.
+* The "Wide" version of the core is for CPC rail carriages, which are about 1.6 mm wider than most others.
 * Print and install the XOL bracket even if you will not be using the center screw, it also adds significant rigidity.
 * The X endstop bracket is only necessary if you need to mount an endstop microswitch.
 * Don't attempt to remove any dropped bridges or other excess material from the flexures themselves. It won't hurt performance, but tool damage to the flexures will.
